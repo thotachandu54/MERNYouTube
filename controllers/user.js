@@ -1,4 +1,3 @@
-import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import {User} from '../models/user.js';//importing the User model
 import { generateCookie }  from '../utils/feature.js';//impoting from the utils 
