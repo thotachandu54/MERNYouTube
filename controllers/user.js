@@ -3,9 +3,7 @@ import jwt from 'jsonwebtoken';
 import {User} from '../models/user.js';//importing the User model
 import { generateCookie }  from '../utils/feature.js';//impoting from the utils 
 import { json } from 'express';
-
-
-
+import bcrypt from 'bcryptjs';
 //function to register a user
 //user registration
 export const userRegister=async (req, res) => {
